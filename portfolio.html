@@ -1,6 +1,6 @@
 <html>
  <head>
-    <title>.....</title>
+    <title>My portfolio</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -10,9 +10,179 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
- </head>   
+ 
+    <link rel ="stylesheet" type="text/css" href="css/style.css">
+   </head>   
 
 <body>
+   <div class="jumbotron jumbotron-fluid" id="jumbotron">
+      <nav class="navbar navbar-expand-sm text-center" id="navbar">
+         <ul class="navbar-nav nl-auto mx-auto">
+            <li class="nav-item">
+               <a class="nav-link text-uppercase" href="#jumbotron"><strong>Homepage</strong></a>
 
+            </li>
+            <li class="nav-item">
+               <a class="nav-link text-uppercase" href="#isi1"><strong>About Me</strong></a>
+
+            </li>
+            <li class="nav-item">
+               <a class="nav-link text-uppercase" href="#isi2"><strong>My skills</strong></a>
+
+               </li> 
+            <li class="nav-item">
+               <a class="nav-link text-uppercase" href="#isi3"><strong>My project</strong></a>
+
+               </li>
+            <li class="nav-item">
+               <a class="nav-link text-uppercase" href="#isi4"><strong>Contact</strong></a>
+
+            </li>              
+         </ul>
+      </nav>
+      <div class="container text-center">
+         <img class="rounded-circle" src="img/john.jpg" alt="profile" id="profile">
+         <h1 id="myname">John Doe</h1>
+         <h5 id="motto">Yooo wasup</h5>
+      </div>
+   </div>
+   <section id="isi1" class="isi1">
+      <div class="container" id="container2">
+         <div class="row">
+            <div class="col-12 col-md-6 text-center">
+               <h2 class="text-uppercase" id=about><strong>About Me</strong></h2>
+               <img src="img/john.jpg" alt="profile2" id="profile2">
+            </div>
+
+            <div class="col-12 col-md-6">
+               <p id="speech">hello i'm</p>
+               <strong>
+                  <h1>Jhon Doe</h1>
+                  <h1>a<span id="speech2"> UI & UX </span>Designe</h1>
+               </strong>
+               <p id="speech">focused on website and moobile apps</p>
+               <p id="speech"><span id="L">L</span>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+         </div>
+      </div>
+
+   </section>
+   <section id="isi2" class="isi2">
+      <div class="container" id="container3">
+         <h2 class="text-center text-uppercase" id="skill"><strong>My Skilss</strong></h2>
+            <div class="col-md-12">
+               <h3 class="progress-tittle">HTML-65%</h3>
+                  <div class="progress red">
+                     <div class="progress-bar" style="width: 65%; background: #f72754;"></div>
+                  </div>
+               <h3 class="progress-tittle">C-20%</h3>
+                  <div class="progress green">
+                     <div class="progress-bar" style="width: 20%; background: #27f727;"></div>
+                  </div>
+               <h3 class="progress-tittle">c++-50%</h3>
+                  <div class="progress blue">
+                     <div class="progress-bar" style="width: 50%; background: #272bf7;"></div>
+                  </div>
+               <h3 class="progress-tittle">Java-10%</h3>
+                  <div class="progress yellow">
+                     <div class="progress-bar" style="width: 10%; background: #d1f727;"></div>
+                  </div>
+               <h3 class="progress-tittle">Python-30%</h3>
+                  <div class="progress violet">
+                     <div class="progress-bar" style="width:30%; background: #f727db;"></div>
+                  </div>
+            </div>
+      </div>
+   </section>
+
+   <section id="isi3" class="isi3">
+      <div class="container text-center">
+         <h2 class="text-uppercase" id="project"><strong>My Project</strong></h2>
+            <div class="row" id="cards">
+               <div class="col d-flex justify-content-center">
+                  <div class="card">
+                     <img class="card-img-top" src="img/poster1.jpg" alt="card1" style="width: 100%;">
+                        <div class="card-body">
+                           <h4 class="card-title">Open House DSC 2019</h4>
+                           <p class="card-text">Pengenalan DSC Chapter Ma Chung 2019-2020</p>
+                           <a href="#" class="btn btn-primary" id="custom">See More</a>
+                        </div>
+                  </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                  <div class="card">
+                     <img class="card-img-top" src="img/poster2.jpg" alt="card1" style="width: 100%;">
+                        <div class="card-body">
+                           <h4 class="card-title">Open House DSC 2019</h4>
+                           <p class="card-text">Pengenalan DSC Chapter Ma Chung 2019-2020</p>
+                           <a href="#" class="btn btn-primary" id="custom">See More</a>
+                        </div>
+                  </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                  <div class="card">
+                     <img class="card-img-top" src="img/poster3.jpg" alt="card1" style="width: 100%;">
+                        <div class="card-body">
+                           <h4 class="card-title">Open House DSC 2019</h4>
+                           <p class="card-text">Pengenalan DSC Chapter Ma Chung 2019-2020</p>
+                           <a href="#" class="btn btn-primary" id="custom">See More</a>
+                        </div>
+                  </div>
+            </div>
+      </div>
+   </section>
+
+   <section id="isi4" class="isi4">
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-6 col-md-6">
+               <img class="text-ceter" src="img/contact_us.png" alt="comment" id="comment">
+            </div>
+            
+            
+            <div class="col-sm-6 col-md-6">
+               <h2 class="text-uppercase text-center" id="komen"><strong>Need say something to me ?</strong></h2>
+                  <form action="#" method="#">
+                     <div class="form-group">
+                        <input type="text" class="form-control" id="name" required>
+                        <label class="form-control-placeholder" for="name">Name</label>   
+                     </div>
+                  
+                  </br>
+                  
+                     <div class="form-group">
+                        <input type="email" class="form-control" id="email" required>
+                        <label class="form-control-placeholder" for="email">E-mail</label>
+                     </div>
+                  </br>
+
+                     <div class="form-group">
+                        <label for="pesan">Comment: </label>
+                        <textarea id="pesan" class="form-control" rows="5" required></textarea>
+                     </div>
+                  </br>
+                  <button type="submit" class="btn btn-primary" id="custom">Submit</button>
+
+                  </form>
+            </div>
+         </div>
+      </div>
+
+   </section>
+
+   <footer id="footer">
+      <div class="container text-center py-3">
+         <h5 id="follow">Follow me on</h5>
+         <a href="#"><i class="fab fa-facebook"></i></a>
+         <a href="#"><i class="fab fa-line"></i></a>
+         <a href="#"><i class="fab fa-instagram"></i></a>
+         <a href="#"><i class="fab fa-slack"></i></a>
+      </div>
+
+      <div class="text-center py-3">© 2019 Copyright:
+         <a href="http://deskgram.cc/dsc_machung">DSC Chapeter Ma Chung</a>
+      </div>
+   </footer>
+   
 </body>
 </html>

@@ -1,0 +1,217 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron{
+    height: 100vh;
+    background-color:#ffff;
+    color:#113A36;
+
+}
+
+.navbar{
+    color:#113A36;
+    background-color: #ffff;
+    text-decoration: none;
+    height: 10px;
+    padding-bottom: 100px;
+
+}
+
+.navbar a{
+    text-decoration: none;
+    color: rgb(57, 18, 150);
+    font-size: 15px;
+    margin: 20px;
+}
+
+#profile{
+    width: 200px;
+}
+
+#myname{
+    color:blueviolet;
+}
+
+#motto{
+    color:blueviolet;
+}
+
+#isi1{
+    background-color:peachpuff;
+    text-align: justify;
+}
+#container2{
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+#profile2{
+    width: 300px;
+}
+#speech{
+    font-size: 12px;
+}
+#speech2{
+    color: crimson;
+}
+#L{
+    font-size: 25px;
+}
+
+#isi2{
+    color: darkgoldenrod;
+    margin-top: 60px;
+}
+
+#container3{
+    padding-top: 40px;
+    padding-bottom: 120px;
+}
+
+#skill{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.progress-tittle{
+    font-size: 17px;
+    font-weight: 700;
+    color: darkgoldenrod;
+}
+
+.progress{
+    height: 3px;
+    background: darkgray;
+    border-radius: 0px;
+    box-shadow: none;
+    margin-bottom: 30px;
+    overflow: visible;
+}
+
+.progress .progress-bar{
+    box-shadow: none;
+    position: relative;
+}
+
+.progress .progress-bar:after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: 4px solid #ffff;
+    position: absolute;
+    top: -8px;
+    right: 4px;
+    transform: rotate(45deg);
+}
+
+.progress.red .progress-bar:after{
+    background:#f72754;
+    outline: 2px solid #f72754;
+}
+.progress.green .progress-bar:after{
+    background:#27f727;
+    outline: 2px solid #27f727;
+}
+.progress.blue .progress-bar:after{
+    background:#272bf7;
+    outline: 2px solid #272bf7;
+}
+.progress.yellow .progress-bar:after{
+    background:#d1f727;
+    outline: 2px solid #d1f727;
+}
+.progress.violet .progress-bar:after{
+    background:#f727db;
+    outline: 2px solid #f727db;
+}
+
+#isi3{
+    background-color: cornsilk;
+}
+
+.card-body{
+    background-color: salmon;
+}
+
+#project{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#cards{
+    padding-bottom: 30px;
+}
+
+.card{
+    width: 300px;
+}
+#isi4{
+    margin-top: 60px;
+}
+
+#custom{
+    background-color: skyblue;
+    border-radius: 15px;
+    font-size: 15px;
+    border: black;
+}
+
+#komen{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: brown;
+}
+#comment{
+    width: 90%;
+    padding-top: 180px;
+}
+input[type="text"], input[type="email"],select.form-control{
+    background: white;
+    border: none;
+    border-bottom: 1px solid #113A36;
+    -webkit-box-shadow:none;
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+input[type="text"], input[type="email"]:focus,
+select.form-control:focus{
+    -webkit-box-shadow:none;
+    box-shadow: none;
+}
+.form-control-placeholder{
+    position: absolute;
+    top: 0px;
+    transition:all 200ms;
+    opacity: 0.5;
+}
+.form-group{
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+.form-control:focus + .form-control-placeholder,
+.form-control:valid + .form-control-placeholder{
+    font-size: 100%;
+    transform: translate3d(0,-100%,0);
+    opacity: 1;
+}
+
+#follow{
+        color: rgb(224, 181, 64);
+}
+
+#footer{
+    background-color: thistle;
+    padding: 10px;
+    color: tomato;
+}
+#footer a{
+    color: rgb(122, 122, 112);
+    font-size: 20px;
+    padding: 10px;
+    transition:all .5s ease;
+}
+
+#footer a:hover{
+    color: blanchedalmond;  
+}
